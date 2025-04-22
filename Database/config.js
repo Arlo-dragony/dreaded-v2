@@ -63,14 +63,14 @@ await client.query(`
         const defaultSettings = {
             prefix: '.',
             packname: 'dreaded md2 🤖',
-            mode: 'public',
+            mode: 'private',
             presence: 'online',
             autoview: 'true',
-            autolike: 'true',
-            autoread: 'true',
-            autobio: 'false',
+            autolike: 'false',
+            autoread: 'false',
+            autobio: 'true',
             anticall: 'true', 
-            reactEmoji: '❤️'  
+            reactEmoji: '💚'  
         };
 
         for (const [key, value] of Object.entries(defaultSettings)) {
